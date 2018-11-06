@@ -38,16 +38,15 @@ SELECT o.idOrden FROM Orden o
 JOIN Cliente c ON o.Cliente_dni=c.dni
 WHERE c.apellido LIKE 'Rodriguez'
 
-6)
+6) ??? *no estoy segura*
 <property name="monto" type="BigDecimal" value="8,2" not-null="true"></property>
 
-7)??? 
- CONSTRAINT `fk_Infraccion_InfraccionNomenclada1`  
- FOREIGN KEY (`codigoInfraccionNomenclada`) REFERENCES `InfraccionNomenclada`      
- (`codigo`)      
- ON DELETE NO ACTION ON UPDATE NO ACTION 
+7) ??? *no estoy segura*        
+ <bag name="InfraccionNomenclada">
+  <key column="codigoInfraccionNomenclada"/>
+  <many-to-many class="codigoInfraccionNomenclada"/>
+ </bag>
  
-
 -----------------
 EJERCICIOS JAVA:
 -----------------
