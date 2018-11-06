@@ -38,11 +38,15 @@ SELECT o.idOrden FROM Orden o
 JOIN Cliente c ON o.Cliente_dni=c.dni
 WHERE c.apellido LIKE 'Rodriguez'
 
-6)??? *No sé qué hay que hacer*
-'monto' decimal(8,2) unsigned NOT NULL,
+6)
+<property name="monto" type="BigDecimal" value="8,2" not-null="true"></property>
 
-7)??? *No sé qué hay que hacer*
-FOREIGN KEY ('codigoInfraccionNomenclada') REFERENCES 'InfraccionNomenclada'('codigo') ON DELETE NO ACTION ON UPDATE NO ACTION
+7)??? 
+ CONSTRAINT `fk_Infraccion_InfraccionNomenclada1`  
+ FOREIGN KEY (`codigoInfraccionNomenclada`) REFERENCES `InfraccionNomenclada`      
+ (`codigo`)      
+ ON DELETE NO ACTION ON UPDATE NO ACTION 
+ 
 
 -----------------
 EJERCICIOS JAVA:
