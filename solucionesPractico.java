@@ -19,7 +19,8 @@ AND e.id_articulo IN(SELECT a.id_articulo FROM ARTICULO a)
 Listará la cantidad total de cada artículo, su proveedor id y su id.
 
 3)
-Se listará la cantidad total de cada artículo cuya catidad sea mayor a 100, el id de su proveedor y su id de artpiculo, agrupando por id de proveedor y ordenándolo de manera descendente según la ciudad del proveedor.
+Se listará la cantidad total de cada artículo cuya catidad sea mayor a 100, el id de su proveedor y su id de artículo, 
+agrupando por id de proveedor y ordenándolo de manera descendente según la ciudad del proveedor.
 *La tuplas envios están mal ordenadas los valores?
 ** ORDER BY e.ciudad DESC sería p.ciudad ?
 
@@ -147,7 +148,8 @@ if(estudiante.getApellido().equalsIgnoreCase(apellido))
 10.3)
 *Ordena las materias según el año de menor a mayor.*
 
-11.1) ??? *local o visitante? No entiendo la diferencia, la googlié y la entendí aún menos. Por ello puede que este código no tenga sentido...o sí.*
+11.1) ??? *local o visitante? No entiendo la diferencia, la googlié y la entendí aún menos. Por ello puede que este código 
+no tenga sentido...o sí.*
 En la clase Equipo:
 public int diferenciaDeGoles(){
  int goles,contras,diferencia;
