@@ -21,21 +21,16 @@ Listará la cantidad total de cada artículo, su proveedor id y su id.
 3)
 Se listará la cantidad total de cada artículo cuya catidad sea mayor a 100, el id de su proveedor y su id de artículo, 
 agrupando por id de proveedor y ordenándolo de manera descendente según la ciudad del proveedor.
-*La tuplas envios están mal ordenadas los valores?
-** ORDER BY e.ciudad DESC sería p.ciudad ?
+??? *La tuplas envios están mal ordenadas los valores?
+??? ** ORDER BY e.ciudad DESC sería p.ciudad ?
 
 4)
 SELECT a.Nombre, a.Apellido, a.DNI, a.Edad, c.Nombre
-
 FROM Alumno a JOIN Inscripcion i
-
 ON a.DNI=i.Alumno_DNI
-
 JOIN Curso c 
 ON i.Curso_idCurso=c.idCurso
-
 WHERE i.Nota >= 7
-
 ORDER BY a.Apellido DESC
 
 5)
