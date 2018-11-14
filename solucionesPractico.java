@@ -93,7 +93,7 @@ f)Salida *no habría salto de línea*
 public List<Productos> ListaDeProductosFiltrada(char letra){
 List<Productos> productosFiltrados;
 productosFiltrados = new ArrayList<>();
-for(Productos p: productos)
+for(Productos p: productos) --> * Duda: for(Productos p: getProductos()) ó this.productos
  if(p.charAt[0].equalsIgnoreCase(letra)
      productosFiltrados.add(p);
 return productosFiltrados;
