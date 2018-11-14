@@ -53,13 +53,13 @@ EJERCICIOS JAVA:
 1)
 a)13 21
 b)5 6
-c)6 6
+c)6 6 * Corregido: es 6,5 *
 d)7 11
 
 2)
 int[] a1 = {26, 19, 14, 11, 10};
 
-3)int[] array = {3, 24, 8, -5, 7, 1}; //6 en vez de 7
+3)int[] array = {3, 24, 8, -5, 7, 1}; * 6 en vez de 7? *
 
 4)
 *El constructor va sin "void".
@@ -82,9 +82,9 @@ Dentro del método segundo.
 Dentro del método primero.
 
 6)
-a)Nada
-b)Error
-c)Salida
+a)Nada * Corrección: Error, si el nombre del archivo .java no cambia. *
+b)Error * MAIN irían en minúesculas sino da error *
+c)Salida * Agrega más texto *
 d)Error
 e)Salida
 f)Salida *no habría salto de línea*
